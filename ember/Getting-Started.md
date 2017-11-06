@@ -72,7 +72,9 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
 
 {% highlight html %}
 	<div class="e-control">
-		{{ej-grid id="Grid" e-dataSource=model.data e-columns=model.cols e-allowPaging=true }}
+	{% raw %}
+	{{ej-grid id="Grid" e-dataSource=model.data e-columns=model.cols e-allowPaging=true }}
+	{% endraw %}
 	</div>
 {% endhighlight %}
 
