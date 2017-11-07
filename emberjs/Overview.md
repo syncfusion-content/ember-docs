@@ -2,7 +2,7 @@
 layout: post
 title: Welcome to Syncfusion Ember 
 description: Overview to Syncfusion Ember
-platform: Ember
+platform: emberjs
 control: Introduction
 documentation: ug
 ---
