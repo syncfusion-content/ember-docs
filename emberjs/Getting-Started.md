@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Getting Started | Ember | Syncfusion
+title: Getting Started with Syncfusion Ember CLI
 description: Getting Started.
-platform: Ember
+platform: emberjs
 control: Common
 documentation: ug
 ---
