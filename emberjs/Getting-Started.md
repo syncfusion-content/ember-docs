@@ -106,4 +106,4 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
 
 * Open the browser and navigates to `http://localhost:4200`.
 
-![](/Ember/Getting-Started_images/Getting-Started_img1.png)
+![](/emberjs/Getting-Started_images/Getting-Started_img1.png)
