@@ -3,7 +3,7 @@ node('content')
 timestamps
   {
      timeout(time: 7200000, unit: 'MILLISECONDS') {
-String platform='Ember';
+String platform='emberjs';
    try
 	{  
 		//Clone scm repository in Workspace source directory
