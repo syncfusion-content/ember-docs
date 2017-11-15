@@ -19,7 +19,7 @@ Spreadsheet uses one or more sub-controls, therefore refer the `ej.web.all.min.j
 
 To get the real appearance of the Spreadsheet, the dependent CSS file `ej.web.all.min.css` (which includes styles of all the widgets) should also needs to be referred.
 
-Further details for getting started on spreadsheet, Refer this [`link`](https://help.syncfusion.com/js/spreadsheet/getting-started "link")
+Refer this [`link`](https://help.syncfusion.com/emberjs/getting-started "link") to add the above dependencies in to your ember application.
 
 ## Initialize Spreadsheet
 
