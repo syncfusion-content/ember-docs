@@ -36,6 +36,18 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
     }
 {% endhighlight %}
 
+* Disable `EXTEND_PROTOTYPES` option in the `environment.js` file under `config` folder to prevent `on` function prototype extension in our controls events.
+
+{% highlight js %}
+    EmberENV: {
+		FEATURES: {
+			// Here you can enable experimental features on an ember canary build
+			// e.g. 'with-controller': true
+		},
+		EXTEND_PROTOTYPES: false
+    },
+{% endhighlight %}
+
 * Open the command prompt in the root folder and run the command `npm install` to download the dependent files in node-modules.
 
 * Copy the files `ej.web.all.min` and `jsrender.min` into the `vendor` folder. Import the same into the application using below code in `ember-cli-build.js`.
@@ -66,7 +78,7 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
 
 * Open the command prompt in the folder `ember-app`.
 
-* Use the command [ember generate route grid/default](https://guides.emberjs.com/v2.11.0/routing/defining-your-routes/)to create template `default.hbs` file in templates folder and router `default.js` file in routes folder. It also add the routing content in `router.js`.
+* Use the command [ember generate route grid/default](https://guides.emberjs.com/v2.11.0/routing/defining-your-routes/) to create template `default.hbs` file in templates folder and router `default.js` file in routes folder. It also add the routing content in `router.js`.
 
 * Use below code in `default.hbs` in templates folder to render the Grid.
 
