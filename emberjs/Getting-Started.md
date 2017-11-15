@@ -100,9 +100,9 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
 
 ## Build or Run the Ember CLI application.
 
-* To Build the Ember CLI application using the command `npm build` which builds the application and creates the `dist` folder. Now you can host the `dist` folder in IIS.
+* To Build the Ember CLI application using the command `ember build` which builds the application and creates the `dist` folder. Now you can host the `dist` folder in IIS.
 
-* To Run the Ember CLI application using the command `npm server` which builds the application and creates the `dist` folder. However it hosts the application in the url `http://localhost:4200`.
+* To Run the Ember CLI application using the command `ember serve` which builds the application and creates the `dist` folder. However it hosts the application in the url `http://localhost:4200`.
 
 * Open the browser and navigates to `http://localhost:4200`.
 
