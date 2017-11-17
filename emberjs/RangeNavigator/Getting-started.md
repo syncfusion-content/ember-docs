@@ -6,7 +6,7 @@ control: rangenavigator
 documentation: ug
 keywords: ejrangenavigator, rangenavigator, rangenavigator widget, Angular rangenavigator
 ---
-#Getting Started
+# Getting Started
 
 Before we start with the RangeNavigator, please refer [this page](https://help.syncfusion.com/emberjs/overview) for general information regarding integrating Syncfusion widget’s.
 

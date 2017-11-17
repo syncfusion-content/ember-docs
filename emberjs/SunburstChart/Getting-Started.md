@@ -275,4 +275,4 @@ Now the Sunburst Chart is rendered along with the specified customizations
 
 ![](Getting-Started_images/Getting-Started_img1.png)
 
-[Click](http://ng2jq.syncfusion.com/#/sunburst/default) here to view the default sample of the  Sunburst Chart.
+[Click](http://emberjq.syncfusion.com/#/sunburstchart/default) here to view the default sample of the  Sunburst Chart.
