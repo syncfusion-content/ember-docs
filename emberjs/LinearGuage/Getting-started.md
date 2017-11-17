@@ -468,7 +468,7 @@ The following code example illustrates how to use custom texts.
 
 On executing the above code sample renders a customized **Linear Gauge** as follows. 
 
-![](/js/LinearGauge/Getting-Started_images/Getting-Started_img8.png)
+![](Getting-started-images/Getting-Started_img8.png)
 
 ## Change scale Degree to Fahrenheit
 
@@ -507,7 +507,7 @@ On executing the above code sample renders a **Linear Gauge** with values in Deg
 
 
 
-![](/js/LinearGauge/Getting-Started_images/Getting-Started_img9.png)
+![](Getting-started-images/Getting-Started_img9.png)
 
 ## Add Custom label for Current Value
 
@@ -576,5 +576,5 @@ You can add the function that displays the current temperature value in the cust
 
 The following screen shot displays a linear gauge with all the customizations discussed earlier.
 
-![](/js/LinearGauge/Getting-Started_images/Getting-Started_img10.png)
+![](Getting-started-images/Getting-Started_img10.png)
 

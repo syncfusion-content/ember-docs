@@ -6,7 +6,7 @@ control: circulargauge
 documentation: ug
 keywords: ejcirculargauge, circulargauge, circulargauge widget, EmberJS circulargauge, Ember circulargauge
 ---
-#Getting Started
+# Getting Started
 
 Before we start with the CircularGauge, please refer [this page](https://help.syncfusion.com/emberjs/overview) for general information regarding integrating Syncfusion widget’s.
 
@@ -521,7 +521,7 @@ Indicators denote whether the pointer values are placed in their respective zone
 
 On executing the above code, sample renders a **Circular Gauge** with customized indicators as follows.
 
-![](/js/CircularGauge/Getting-Started_images/Getting-Started_img8.png)
+![](Getting-started-images/Getting-Started_img8.png)
 
 ## Add Custom Label Details
 
@@ -592,5 +592,5 @@ You can specify the text in the **Gauge** using **customLabels** and you can cus
 
 The following screenshot displays a **Circular Gauge** control with all customization properties.
 
-![](/js/CircularGauge/Getting-Started_images/Getting-Started_img9.png)
+![](Getting-started-images/Getting-Started_img9.png)
 
