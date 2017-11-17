@@ -6,7 +6,7 @@ control: maps
 documentation: ug
 keywords: ejmaps, maps, maps widget, Angular maps, EmberJS maps, Ember maps
 ---
-#Getting Started
+# Getting Started
 
 Before we start with the Maps, please refer [this page](https://help.syncfusion.com/emberjs/overview) for general information regarding integrating Syncfusion widget’s.
 
@@ -305,7 +305,7 @@ You can customize the shape’s color by using `fill`, `stroke` and `strokeThick
 
 {% endhighlight %}
 
-![](Getting-Started-images/Getting-Started_img2.png)
+![](Getting-started-images/Getting-Started_img2.png)
 
 ### Customize Map Appearance by Range
 
@@ -378,7 +378,7 @@ N> The `enableGradient` property value is set to true to apply gradient colors f
 
 
 
-![](Getting-Started-images/Getting-Started_img3.png)
+![](Getting-started-images/Getting-Started_img3.png)
 
 
 ## Enable Tooltip
@@ -415,7 +415,7 @@ The tooltip is displayed only when the `showTooltip` is set to “**True**” in
 
 The following screenshot illustrates a map control displaying a Tooltip.
 
-![](Getting-Started-images/Getting-Started_img4.png)
+![](Getting-started-images/Getting-Started_img4.png)
 
 ## Legend
 
@@ -467,4 +467,4 @@ You can use `leftLabel` and `rightLabel` property to provide left and right labe
 
 The following screenshot illustrates a map displaying an interactive legend.
 
-![](Getting-Started-images/Getting-Started_img5.png)
+![](Getting-started-images/Getting-Started_img5.png)

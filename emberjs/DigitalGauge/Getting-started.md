@@ -6,7 +6,7 @@ control: digitalgauge
 documentation: ug
 keywords: ejdigitalgauge, digitalgauge, digitalgauge widget, Angular digitalgauge, EmberJS digitalgauge, Ember digitalgauge
 ---
-#Getting Started
+# Getting Started
 
 Before we start with the DigitalGauge, please refer [this page](https://help.syncfusion.com/emberjs/overview) for general information regarding integrating Syncfusion widget’s.
 
@@ -97,7 +97,7 @@ Refer the `ej.web.all.min.js` which encapsulates all the `ej` controls and frame
 
 * To run the application, execute below command.
 
-{% highlight javascript %}
+{% highlight html %}
  
  ember serve
 
@@ -163,7 +163,7 @@ You can customize the **Digital Gauge** using different properties.
 
 {% highlight html %}
 
-	{{ej-digitalgauge id="DigitalGuage" e-width=model.width e-height=model.height e-items=model.items}
+	{{ej-digitalgauge id="DigitalGuage" e-width=model.width e-height=model.height e-items=model.items}}
 
 {% endhighlight %}
 

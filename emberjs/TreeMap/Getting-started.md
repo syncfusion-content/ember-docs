@@ -6,7 +6,7 @@ control: treemap
 documentation: ug
 keywords: ejtreemap, treemap, treemap widget, EmberJS treemap
 ---
-#Getting Started
+# Getting Started
 
 Before we start with the TreeMap, please refer [this page](https://help.syncfusion.com/emberjs/overview) for general information regarding integrating Syncfusion widget’s.
 

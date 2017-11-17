@@ -109,7 +109,7 @@ To get the real appearance of the Chart, the dependent CSS file `ej.web.all.min.
 
 * Browse to [http://localhost:4200](http://localhost:4200) to see the application. And navigate to chart sample. The component is rendered as like the below screenshot. You can make changes in the code found under app folder and the browser should auto-refresh itself while you save files. 
 
-![](Getting-started-images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ## Populate chart with data
 
@@ -152,7 +152,7 @@ export default Ember.Route.extend({
 
 {% endhighlight %}
 
-![](Getting-started-images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 ## Add Data Labels
 
@@ -183,7 +183,7 @@ export default Ember.Route.extend({
 
 {% endhighlight %}
 
-![](Getting-started-images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 There are situations where the default label content is not sufficient to the user. In this case, you can use the [`template`](../api/ejchart#members:series-marker-datalabel-template) option to format the label content with some additional information.
 
@@ -216,7 +216,7 @@ The above HTML template is used as a template for each data label. Here, "point.
 
 The following code example shows how to set the id of the above template to [`template`](../api/ejchart#members:series-marker-datalabel-template) option,
 
-![](Getting-started-images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 ## Enable Legend
 
@@ -247,7 +247,7 @@ export default Ember.Route.extend({
 
 {% endhighlight %}
 
-![](/js/Chart/Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_img5.png)
 
 
 ## Enable Tooltip
@@ -281,7 +281,7 @@ export default Ember.Route.extend({
 
 {% endhighlight %}
 
-![](Getting-started-images/Getting-Started_img6.png)
+![](Getting-Started_images/Getting-Started_img6.png)
 
 ## Add Chart Title
 
@@ -305,4 +305,4 @@ export default Ember.Route.extend({
       
 {% endhighlight %}
 
-![](Getting-started-images/Getting-Started_img7.png)
+![](Getting-Started_images/Getting-Started_img7.png)
