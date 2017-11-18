@@ -85,7 +85,7 @@ N> Uncompressed version of library files are also available which is used for de
 
 * To run the application, execute below command.
 
-{% highlight javascript %}
+{% highlight html %}
  
  ember serve
 
@@ -273,7 +273,7 @@ export default Ember.Route.extend({
 
 {% endhighlight %}
 
-![](Getting-Started-images/Getting-Started_img2.png)
+![](Getting-started-images/Getting-Started_img2.png)
 
 As you can see in the image above, the bullet graph without any ranges is displayed in the background. The steps to add the **qualitativeRanges** are described in the next section.
 
@@ -331,7 +331,7 @@ export default Ember.Route.extend({
 
 After adding **qualitativeRanges** to the **BulletGraph**, the control will be rendered as follows.
 
-![](Getting-Started-images/Getting-Started_img3.png) 
+![](Getting-started-images/Getting-Started_img3.png) 
 
 **Ticks and Measure Bars Customization**
 
@@ -392,7 +392,7 @@ export default Ember.Route.extend({
 
 When customization of ticks and measure bars is done, **BulletGraph** looks as follows
 
-![](Getting-Started-images/Getting-Started_img4.png)  
+![](Getting-started-images/Getting-Started_img4.png)  
 
 **Add Caption**
 
@@ -467,7 +467,7 @@ export default Ember.Route.extend({
 
 The following screenshot displays a **BulletGraph** in the caption and title in the **BulletGraph**.
 
-![](Getting-Started-images/Getting-Started_img5.png)
+![](Getting-started-images/Getting-Started_img5.png)
 
 **Show Tooltip**
 
@@ -554,5 +554,5 @@ export default Ember.Route.extend({
 
 By using the customization options discussed in this section, the **BulletGraph** is rendered as displayed on the following screenshot.
 
-![](Getting-Started-images/Getting-Started_img6.png) 
+![](Getting-started-images/Getting-Started_img6.png) 
 
