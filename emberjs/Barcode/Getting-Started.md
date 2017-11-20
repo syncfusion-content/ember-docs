@@ -2,14 +2,14 @@
 layout: post
 title: Getting Started with Syncfusion Essential EmberJS Barcode widget
 description: How to create one dimensional, two dimensional barcode and customizing the appearance of it. 
-platform: emberjs
+platform: EmberJS
 control: Barcode
 documentation: ug
 ---
 
 # Getting Started
 
-This section explains you briefly on how to create one dimensional and two dimensional barcodes and customizing its appearance in your EmberJs application.
+This section explains you briefly on how to create one dimensional and two dimensional barcodes and customizing its appearance in your EmberJS application.
 
 You can easily configure the barcode to any DOM element such as `div` or `span`. It takes [`text`](/api/js/ejbarcode#textspan-classtype-signature-type-stringstringspan) and [`symbologyType`](/api/js/ejbarcode#symbologytypespan-classtype-signature-type-enumenumspan) as input and renders the encoded text as barcode.
 
@@ -25,8 +25,6 @@ Create an HTML file using the following code example for `Ember JS Barcode` crea
 <html>
    <head>
       <title>Getting Started Essential Ember JS</title>
-      <!-- Style sheet for default theme (flat azure)-->
-      <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.widgets.all.min.css" rel="stylesheet" />
       <!--scripts-->
       <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
       <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/ej.widgets.all.min.js"></script>
@@ -74,8 +72,6 @@ Create an HTML file using the following code example for creating a Code128 barc
 <html>
    <head>
       <title>Getting Started Essential Ember JS</title>
-      <!-- Style sheet for default theme (flat azure)-->
-      <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.widgets.all.min.css" rel="stylesheet" />
       <!--scripts-->
       <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
       <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/ej.widgets.all.min.js"></script>

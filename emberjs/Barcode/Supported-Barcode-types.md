@@ -2,7 +2,7 @@
 layout: post
 title: Supported-Barcode-types
 description: supported barcode types
-platform: emberjs
+platform: EmberJS
 control: Barcode
 documentation: ug
 ---
