@@ -48,7 +48,7 @@ Before we start with the Textboxes, please refer [this page](https://help.syncfu
 
 {% endhighlight %}
 
-* Browse to [http://localhost:4200](http://localhost:4200) to see the application. And navigate to CurrencyTextbox sample (http://localhost:4200/percentage/default). The component is rendered as like the below screenshot. You can make changes in the code found under app folder and the browser should auto-refresh itself while you save files. 
+* Browse to [http://localhost:4200](http://localhost:4200) to see the application. And navigate to CurrencyTextbox sample (http://localhost:4200/currency/default). The component is rendered as like the below screenshot. You can make changes in the code found under app folder and the browser should auto-refresh itself while you save files. 
 
 ![](Getting-Started_images/Getting-Started_img1.png)
 
