@@ -22,7 +22,7 @@ The following table contains the supported types and associated valid characters
 <td>
 {{'[QR Code](https://en.wikipedia.org/wiki/QR_code)'| markdownify }}</td><td>
 QRBarcode</td><td>
-[0–9]; [A–Z (upper-case only)]; [space $ % * + - . / , :]; [Shift JIS characters]</td><td>
+[0â€“9]; [Aâ€“Z (upper-case only)]; [space $ % * + - . / , :]; [Shift JIS characters]</td><td>
 variable</td></tr>
 <tr>
 <td>
@@ -82,7 +82,7 @@ variable</td></tr>
 <td>
 {{'[Code 128B](https://en.wikipedia.org/wiki/Code_128)'| markdownify }}</td><td>
 Code128B</td><td>
-[0-9]; [A-Z]; [a-z]; [SPACE (0x20) ! " # $ % & ' ( ) * + , - . / :; &lt; = &gt; ? @ [ / ]^ _ `  { | } ~ DEL (•) ]</td><td>
+[0-9]; [A-Z]; [a-z]; [SPACE (0x20) ! " # $ % & ' ( ) * + , - . / :; &lt; = &gt; ? @ [ / ]^ _ `  { | } ~ DEL (â€¢) ]</td><td>
 variable</td></tr>
 <tr>
 <td>
