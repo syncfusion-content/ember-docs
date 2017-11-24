@@ -95,24 +95,35 @@ The below table shows the context menu items corresponding to the location where
 <tr>
 <th>
 Context menu location</th><th>
-Context menu items</th><th>
-Screenshot</th></tr>
+Context menu items</th></tr>
 <tr>
 <td>
 While right click on treeview nodes (from navigation pane)<br/><br/></td><td>
-* New folder<br/>* Upload<br/>* Delete<br/>* Rename<br/>* Cut<br/>* Copy<br/>* Paste<br/><br/><br/><br/></td><td>
-<br/><br/><br/><br/></td></tr>
+* New folder<br/>* Upload<br/>* Delete<br/>* Rename<br/>* Cut<br/>* Copy<br/>* Paste<br/><br/><br/><br/></td></tr>
 <tr>
 <td>
 While right click on File / Folder<br/><br/></td><td>
-* Open<br/>* Download<br/>* Upload<br/>* Delete<br/>* Rename<br/>* Cut<br/>* Copy<br/>* Paste<br/>* Get info<br/><br/><br/><br/></td><td>
-<br/><br/><br/><br/></td></tr>
+* Open<br/>* Download<br/>* Upload<br/>* Delete<br/>* Rename<br/>* Cut<br/>* Copy<br/>* Paste<br/>* Get info<br/><br/><br/><br/></td></tr>
 <tr>
 <td>
 While right click on layout (content pane)<br/><br/></td><td>
-* Refresh<br/>* Paste<br/>* Sort By<br/>* New folder<br/>* Upload <br/>* Get info <br/><br/><br/><br/></td><td>
-<br/><br/><br/><br/></td></tr>
+* Refresh<br/>* Paste<br/>* Sort By<br/>* New folder<br/>* Upload <br/>* Get info <br/><br/><br/><br/></td></tr>
 </table>
+
+While right click on treeview nodes (from navigation pane), it will looks like below.
+
+![](Context_Menu_images/TreeView_menu.png)
+
+While right click on File / Folder, it will looks like below.
+
+![](Context_Menu_images/Files_menu.png)
+
+While right click on layout (content pane), it will lokks like below.
+
+![](Context_Menu_images/contentpane_menu.png)
+
+
+
 The below table explains the behavior of each context menu item:
 
 <table>

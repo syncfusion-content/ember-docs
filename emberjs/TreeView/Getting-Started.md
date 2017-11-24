@@ -98,7 +98,7 @@ Before we start with the TreeView, please refer [this page](https://help.syncfus
 
 ## Check boxes
 
-TreeView consists of built-in checkbox option and it can be displayed to the left of the tree node by setting the showCheckbox property as true. It allows you to select more than one node at a time.
+TreeView consists of built-in checkbox option and it can be displayed to the left of the tree node by setting the [showCheckbox](https://help.syncfusion.com/api/js/ejtreeview#members:showcheckbox) property as true. It allows you to select more than one node at a time.
 
 ## Indeterminate Checkboxes
 
