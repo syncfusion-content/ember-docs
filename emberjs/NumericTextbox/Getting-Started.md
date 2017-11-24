@@ -31,7 +31,7 @@ Before we start with the Textboxes, please refer [this page](https://help.syncfu
 	export default Ember.Route.extend({
       model(){
          return {
-           numeric : 35,
+           numeric : 35
         }
     }
 {% endraw %}
@@ -83,7 +83,7 @@ The following steps explain the implementation of **enableStrictMode** in **Nume
 export default Ember.Route.extend({
     model(){
     return {
-     numeric : 35,
+        numeric : 35,
         min: 10,
         max : 30
         }
@@ -113,7 +113,7 @@ The following steps explain the implementation of **incrementStep** in NumericTe
 export default Ember.Route.extend({
     model(){
     return {
-     numeric : 35,
+        numeric : 35,
         min: 10,
         max : 30,
         step: 5

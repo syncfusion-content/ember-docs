@@ -83,7 +83,7 @@ The following steps explain the implementation of **enableStrictMode** in **Curr
 export default Ember.Route.extend({
     model(){
     return {
-       currency : 100,
+        currency : 100,
         min: 10,
         max : 30
         }
@@ -113,7 +113,7 @@ The following steps explain the implementation of **incrementStep** in CurrencyT
 export default Ember.Route.extend({
     model(){
     return {
-     curency : 100,
+        curency : 100,
         min: 10,
         max : 30,
         step: 5
