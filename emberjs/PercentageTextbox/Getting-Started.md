@@ -83,7 +83,7 @@ The following steps explain the implementation of **enableStrictMode** in **Perc
 export default Ember.Route.extend({
     model(){
     return {
-     percent : 35,
+        percent : 35,
         min: 10,
         max : 30
         }
@@ -113,7 +113,7 @@ The following steps explain the implementation of **incrementStep** in Percentag
 export default Ember.Route.extend({
     model(){
     return {
-     percent : 35,
+        percent : 35,
         min: 10,
         max : 30,
         step: 5
