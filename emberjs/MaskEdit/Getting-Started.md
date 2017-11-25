@@ -20,7 +20,7 @@ Before we start with the MaskEdit, please refer [this page](https://help.syncfus
 
 {% highlight html %}
 {% raw %}
-            {{ej-maskedit id="mask"}}
+            {{ej-maskedit id="mask" mask :  "999-99"}}
 {% endraw %}
 {% endhighlight %}
 

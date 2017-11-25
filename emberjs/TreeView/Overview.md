@@ -14,11 +14,10 @@ TreeView control for JavaScript represents hierarchical data in tree like struct
 
 ## Key features
 
-* [Data population](https://help.syncfusion.com/js/treeview/populate-data) 
-* [Node manipulations](https://help.syncfusion.com/js/treeview/tree-node#node-manipulations)
-* [Drag and drop](https://help.syncfusion.com/js/treeview/drag-and-drop)
-* [Template](https://help.syncfusion.com/js/treeview/template-support)
-* [Checkbox](https://help.syncfusion.com/js/treeview/checkbox-support)
-* Accessibility
-* Appearance and styling
-
+* **Data population**  - Binds the TreeView component with an array of JavaScript objects or Data Manager
+* **Node Manipulations** - Allows to add or remove the nodes in TreeView.
+* **Drag and Drop** - Allows you to drag and drop any node in TreeView.
+* **Template** - Allows you to customize the nodes in TreeView.
+* **Checkbox** -  Allows you to select more than one node in TreeView without affecting the UI appearance.
+* **Accessibility** - Provides built-in accessibility support that helps to access all the TreeView component features through the keyboard, on-screen readers, or other assistive technology devices. 
+* **Appearance and styling** -  It consist of 17 built-in themes , and also support custom skins for creating user-defined themes.
