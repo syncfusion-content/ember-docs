@@ -3,7 +3,7 @@ layout: post
 title: Kanban - Getting-Started
 description: Getting-Started
 documentation: ug
-platform: EnberJS
+platform: emberJS
 control: Kanban
 keywords: getting started,kanban getting started
 api : /api/js/ejkanban
