@@ -21,9 +21,9 @@ If you want to know individual script reference to create Dialog Please Refer un
 {% highlight html %}
 
     <div class="e-control">
-	    
+	 {% raw %}
       {{#ej-dialog id="defaultdialog" }} {{/ej-dialog}} 
-
+     {% endraw %}
 	</div>                  
 
 {% endhighlight %}
@@ -55,12 +55,12 @@ Add the contents for the dialog as below.
 {% highlight html %}
 
     <div class="e-control">
-
+    {% raw %}
     {{#ej-dialog id="defaultdialog" }}
                 <!--dialog content-->
             <p>This is a simple dialog</p>
                 {{/ej-dialog}}
-
+     {% endraw %}
 	</div>                  
 
 {% endhighlight %}
@@ -93,12 +93,12 @@ The Dialog widget’s title can be set as follows.
 {% highlight html %}
 
     <div class="e-control">
-
+    {% raw %}
      {{#ej-dialog id="defaultdialog" e-title="Dialog"}}
                 <!--dialog content-->
             <p>This is a simple dialog</p>
                 {{/ej-dialog}}
-
+     {% endraw %}
 	</div>                  
 
 {% endhighlight %}
@@ -135,12 +135,14 @@ Refer the below example to open dialog on button click.
     <div class="e-control">
 
       <div class="cols-sample-area">
+      {% raw %}
             {{ej-button id="btnOpen" e-text="Click to open dialog" e-click=model.onOpen }}
 		   <div class="e-container-dialog">
                {{#ej-dialog id="defaultdialog" e-title="Dialog" e-target=".cols-sample-area" e-showOnInit=false e-close=model.onDialogClose e-open=model.dlgOpen}}
                 <!--dialog content-->
             <p>This is a simple dialog</p>
                 {{/ej-dialog}}
+            {% endraw %}
             </div>
         </div>
 	</div>                  

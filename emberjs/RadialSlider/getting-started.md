@@ -22,9 +22,9 @@ Create a **div** element that is a container for **Radial Slider**. Initialize t
         {% highlight html %}
         
           <div class="e-container-radialslider">
-
+            {% raw %}
                 {{ej-radialslider id="defaultslider"}}
-          
+          {% endraw %}
             </div>
                 
         {% endhighlight %}
@@ -49,9 +49,9 @@ Include following code in your hbs and js file,
   {% highlight html %}
         
           <div class="e-container-radialslider">
-
+              {% raw %}
                 {{ej-radialslider id="defaultslider" e-innerCircleImageUrl=model.imageurl}}
-
+                {% endraw %}
             </div>
                 
     {% endhighlight %}

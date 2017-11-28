@@ -21,6 +21,7 @@ Initialize the ListBox widget as below.
 
         <div class="e-container-listbox">
 			 <div class="ctrllabel">Select a Car</div>
+             {% raw %}
                {{#ej-listbox id="defaultlistbox" }}
                         <li>Audi A4</li>
                         <li>Audi A5</li>
@@ -35,6 +36,8 @@ Initialize the ListBox widget as below.
                         <li>BMW 3200</li>
                         <li>Cut</li>
                {{/ej-listbox}}
+               {% endraw %}
+
             </div>
             
 {% endhighlight %}
@@ -64,7 +67,9 @@ We can populate data in the ListBox widget using “e-datasource” and “e-fie
 
         <div class="e-container-listbox">
 			   <div class="ctrllabel">Select a bike</div>
+      {% raw %}
       {{ej-listbox id="defaultlistbox" e-dataSource=model.BikeList e-fields=model.fields}}
+      {% endraw %}
 
             </div>
             
@@ -111,9 +116,9 @@ The ListBox widget supports item selection. To achieve this please use "e-select
 
         <div class="e-container-listbox">
 			   <div class="ctrllabel">Select a bike</div>
-
+            {% raw %}
                {{ej-listbox id="defaultlistbox" e-dataSource=model.BikeList e-fields=model.fields e-selectedIndex=2}}
-
+            {% endraw %}
             </div>
             
 {% endhighlight %}
