@@ -1,4 +1,4 @@
----
+﻿---
 title: Getting Started for Slider
 description: How to create a Slider
 platform: EmberJS
@@ -6,7 +6,7 @@ control: Slider
 documentation: ug
 keywords: ejslider, slider, slider widget, EmberJS slider, Ember slider
 ---
-#Getting Started
+# Getting Started
 
 Before we start with the Slider, please refer [this page](https://help.syncfusion.com/emberjs/overview) for general information regarding integrating Syncfusion widget’s.
 
