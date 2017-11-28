@@ -82,7 +82,7 @@ You can add a header for **ListView**. Refer to the following script.
 			   {{/ej-listview}}
             {% endraw %}
             </div>
-    {% end highlight %}
+    {% endhighlight %}
 
 Please add the following code in corresponding script file,
 
