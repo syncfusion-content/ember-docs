@@ -37,7 +37,7 @@ If you want to know individual script reference to create ListView Please Refer 
                {% endraw %}
             </div>
 
-{% end highlight %}
+{% endhighlight %}
 
 
 Please add the following code in corresponding script file,
