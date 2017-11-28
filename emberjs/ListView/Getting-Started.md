@@ -43,7 +43,7 @@ If you want to know individual script reference to create ListView Please Refer 
 Please add the following code in corresponding script file,
 
 
-    {% highlight js %}
+ {% highlight js %}
 
         export default Ember.Route.extend({
         model(){
@@ -52,7 +52,7 @@ Please add the following code in corresponding script file,
             } }
         });
 
-    {% endhighlight %}
+ {% endhighlight %}
 
 
 Run the above code to render the following output.
@@ -86,7 +86,7 @@ You can add a header for **ListView**. Refer to the following script.
 
 Please add the following code in corresponding script file,
 
-    {% highlight js %}
+{% highlight js %}
 
         export default Ember.Route.extend({
         model(){
@@ -96,7 +96,7 @@ Please add the following code in corresponding script file,
             }
         });
 
-    {% endhighlight %}
+  {% endhighlight %}
 
 
 
