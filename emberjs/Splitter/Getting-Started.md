@@ -16,20 +16,23 @@ If you want to know individual script reference to create Splitter Please Refer 
 
 From the following guidelines, you can create a **Splitter**, add Tree view in the **Splitter** and set actions to view the text content. It is used to split the document or image and Expand or Collapse in the **Splitter**. The following screenshot demonstrates the functionality of **Splitter** widget.
 
-![](/Splitter/Getting-Started_images/Getting-Started_img1.png) 
+![](Getting-Started_images/Getting-Started_img1.png) 
 
 ## Create Splitter Control
 
 {% highlight html %}
 
      <div class="cols-sample-area">
+      {% raw %}  
                 {{#ej-splitter id="outterSplitter" e-height=model.height e-width=model.width  e-properties=model.properties e-enableAutoResize=model.enableAutoResize}}                      
                     <div id="treepane">
                     </div>
                        
                        <div class="cont">
                         </div>
-                {{/ej-splitter}}            
+                {{/ej-splitter}}   
+                
+                {% endraw %}         
         </div>
 
 {% endhighlight %}
@@ -60,6 +63,7 @@ Add the following code example in **HTML** file to configure Tree View.
 {% highlight html %}
 
         <div class="cols-sample-area">
+        {% raw %}
         {{#ej-splitter id="outterSplitter" e-height=model.height e-width=model.width  e-properties=model.properties e-enableAutoResize=model.enableAutoResize}}                      
         <div>
         <div class="cont">
@@ -101,7 +105,8 @@ Add the following code example in **HTML** file to configure Tree View.
         The capital city of the French Alps and a major scientific center surrounded by many ski resorts, host of the Winter Olympics in 1968.
         </div>
         </div>
-        {{/ej-splitter}}            
+        {{/ej-splitter}}           
+        {% endraw %} 
         </div>
 
 {% endhighlight %}
@@ -159,5 +164,5 @@ Add the following code example in the view page to set the action to view the co
 
 The following screenshot is the output for the above code.
 
-![](/Splitter/Getting-Started_images/Getting-Started_img2.png) 
+![](Getting-Started_images/Getting-Started_img2.png) 
 

@@ -21,7 +21,7 @@ The following steps guide you in adding a **Navigation Drawer** control for a we
 {% highlight html %}
 
     <div class="e-container-navigationdrawer">
-
+    {% raw %}
     {{#ej-navigationdrawer id="navpane" e-enableListView=true e-listViewSettings=model.listViewSettings e-mouseUp=model.mouseUp}}
     <ul>
         <li data-ej-text="Home"></li>
@@ -29,6 +29,8 @@ The following steps guide you in adding a **Navigation Drawer** control for a we
         <li data-ej-text="Profile"></li>
     </ul>
     {{/ej-navigationdrawer}}
+
+    {% endraw %}
 
     </div>
 
@@ -97,7 +99,7 @@ Add the following code in the **script** tag.
 {% highlight html %}
 
         <div class="e-container-navigationdrawer">
-                
+    {% raw %}                
         {{#ej-navigationdrawer id="navpane" e-targetId="butdrawer" e-enableListView=true e-listViewSettings=model.listViewSettings e-mouseUp=model.mouseUp}}
                         <ul>
                             <li data-ej-text="Home"></li>
@@ -105,6 +107,9 @@ Add the following code in the **script** tag.
                             <li data-ej-text="Profile"></li>
                         </ul>
             {{/ej-navigationdrawer}}
+            
+            {% endraw %}
+
             
         </div>
 
@@ -121,6 +126,7 @@ You can set the images for Navigation Drawer by using the **data-ej-imageClass**
 {% highlight html %}
 
         <div class="e-container-navigationDrawer">
+        {% raw %}
         {{#ej-navigationdrawer id="navpane" e-targetId="butdrawer" e-enableListView=true e-listViewSettings=model.listViewSettings e-mouseUp=model.mouseUp}}
         <ul>
             <li data-ej-imageclass="e-home" data-ej-text="Home"></li>
@@ -128,6 +134,8 @@ You can set the images for Navigation Drawer by using the **data-ej-imageClass**
             <li data-ej-imageclass="e-people" data-ej-text="Profile"></li>
         </ul>
         {{/ej-navigationdrawer}}
+        
+        {% endraw %}
         </div>
     
 {% endhighlight %}
