@@ -21,7 +21,7 @@ If you want to know individual script reference to create ListView Please Refer 
 {% highlight html %}
 
         <div class="e-container-listview">
-
+        {% raw %}
                {{#ej-listview id="defaultListview" e-width=model.width}}
 						<ul>
                             <li data-ej-text="Artwork"></li>
@@ -34,15 +34,16 @@ If you want to know individual script reference to create ListView Please Refer 
                             <li data-ej-text="Children"></li>
                         </ul>
 			   {{/ej-listview}}
+               {% endraw %}
             </div>
 
-{% end highlight %}
+{% endhighlight %}
 
 
 Please add the following code in corresponding script file,
 
 
-    {% highlight javascript %}
+    {% highlight js %}
 
         export default Ember.Route.extend({
         model(){
@@ -58,7 +59,7 @@ Run the above code to render the following output.
 
 ![](Getting-Started_images/Getting-Started_img2.png) 
 
-**Add Header** 
+## Add Header
 
 You can add a header for **ListView**. Refer to the following script.
 
@@ -66,7 +67,7 @@ You can add a header for **ListView**. Refer to the following script.
  {% highlight html %}
 
         <div class="e-container-listview">
-
+        {% raw %}
                {{#ej-listview id="defaultListview" e-width=model.width e-showHeader=true e-headerTitle="My Favourite"}}
 						<ul>
                             <li data-ej-text="Artwork"></li>
@@ -79,12 +80,13 @@ You can add a header for **ListView**. Refer to the following script.
                             <li data-ej-text="Children"></li>
                         </ul>
 			   {{/ej-listview}}
+            {% endraw %}
             </div>
     {% end highlight %}
 
 Please add the following code in corresponding script file,
 
-    {% highlight javascript %}
+    {% highlight js %}
 
         export default Ember.Route.extend({
         model(){
