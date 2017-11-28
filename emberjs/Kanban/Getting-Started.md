@@ -173,7 +173,9 @@ To get the real appearance of the Kanban, the dependent CSS file `ej.web.all.min
 {% highlight html %}
 
 <div class="e-control">
+	{% raw %}
 	{{ej-kanban id="Kanban" e-columns=model.columns }}
+    {% endraw %}
 </div>
 
 {% endhighlight %}
@@ -219,7 +221,9 @@ export default Ember.Route.extend({
 {% highlight html %}
 
 <div class="e-control">
+    {% raw %}
 	{{ej-kanban id="Kanban" e-dataSource=model.dataSource e-columns=model.columns }}
+    {% endraw %}
 </div>
    
 {% endhighlight %}
@@ -271,7 +275,9 @@ In order to display cards in Kanban control, you need to map the database fields
 {% highlight html %}
 
 <div class="e-control">
+    {% raw %}
 	{{ej-kanban id="Kanban" e-dataSource=model.dataSource e-columns=model.columns e-keyField=model.keyField e-fields=model.fields }}
+    {% endraw %}
 </div>
 
 {% endhighlight %} 
@@ -323,7 +329,9 @@ N>  `fields.primaryKey` field is mandatory for “Drag and Drop” ,”Selection
 {% highlight html %}
 
 <div class="e-control">
+    {% raw %}
 	{{ej-kanban id="Kanban" e-dataSource=model.dataSource e-columns=model.columns e-keyField=model.keyField e-fields=model.fields }}
+    {% endraw %}
 </div>
 
 {% endhighlight %} 
@@ -374,7 +382,9 @@ Filters allows to filter the collection of cards from `dataSource` which meets t
 {% highlight html %}
 
 <div class="e-control">
+    {% raw %}
 	{{ej-kanban id="Kanban" e-dataSource=model.dataSource e-columns=model.columns e-keyField=model.keyField e-fields=model.fields e-filterSettings=model.filterSettings }}
+    {% endraw %}
 </div>
 
 {% endhighlight %} 
