@@ -20,9 +20,9 @@ If you want to know individual script reference to create Autocomplete Please Re
 {% highlight html %}
 	
     <div class="e-control">
-	
+	{% raw %}
         {{ej-autocomplete id="autocomplete"}}
-
+    {% endraw %}
 	</div>
 
 {% endhighlight %}
@@ -76,9 +76,9 @@ This button helps you to show all the available suggestions by click on it inste
 {% highlight html %}
 
 	<div class="e-control">
-
+    {% raw %}
     {{ej-autocomplete id="autocomplete" e-dataSource=model.dataSource e-showPopupButton=true}}
-   
+    {% endraw %}
 	</div>
 {% endhighlight %}
 

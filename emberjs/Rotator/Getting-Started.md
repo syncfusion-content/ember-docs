@@ -13,7 +13,7 @@ This section explains briefly about how to create a **Rotator** in EmberJS. **Em
 
 The following screenshot demonstrates the functionality of **Rotator** widget.
 
-![](/Rotator/Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create Rotator Widget
 
@@ -24,11 +24,14 @@ A Rotator widget can be made by the following steps.
 {% highlight html %}
 
     <div class="frame">
+        {% raw %}
                 {{#ej-rotator id="sliderContent" e-slidewidth=model.slideWidth e-framespace=model.frameSpace
                     e-slideheight=model.slideHeight e-displayitemscount=model.displayItemsCount e-navigatesteps=model.navigateSteps
                     e-pagerposition=model.pagerPosition  e-orientation=model.orientation e-showpager=model.showPager e-enabled=model.enabled e-showcaption=model.showCaption
             e-allowkeyboardnavigation=model.allowKeyboardNavigation e-showCaption=true  e-showPlayButton=true e-isresponsive=model.isResponsive e-animationtype= model.animationType}}              
-                    {{/ej-rotator}}                         
+                    {{/ej-rotator}}   
+            {% endraw %}    
+
             </div>
 
 {% endhighlight %}
@@ -43,6 +46,7 @@ The following guidelines help you to configure images.
 {% highlight html %}
 
     <div class="frame">
+        {% raw %}
                {{#ej-rotator id="sliderContent" e-slidewidth=model.slideWidth e-framespace=model.frameSpace
                    e-slideheight=model.slideHeight e-displayitemscount=model.displayItemsCount e-navigatesteps=model.navigateSteps
                    e-pagerposition=model.pagerPosition  e-orientation=model.orientation e-showpager=model.showPager e-enabled=model.enabled e-showcaption=model.showCaption
@@ -65,7 +69,9 @@ The following guidelines help you to configure images.
 
                  
                 
-                {{/ej-rotator}}                         
+                {{/ej-rotator}}                      
+     {% endraw %}   
+
             </div>
 
 
@@ -133,5 +139,5 @@ Add the following script in corresponding script file.
 
 The above code gives the output displayed in following screenshot.
 
-![](/Rotator/Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 

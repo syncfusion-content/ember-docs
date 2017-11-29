@@ -26,6 +26,7 @@ Create a Radial Menu by using the below code. You can also set the images for ea
 {% highlight html %}
 
     <div id="content">
+        {% raw %}
             {{#ej-radialmenu id="defaultradialmenu" e-autoOpen=model.autoOpen }}
             <ul>
                 <li data-ej-imageurl="http://js.syncfusion.com/demos/web/content/images/RadialMenu/font.png" data-ej-text="Bold"></li>
@@ -34,6 +35,8 @@ Create a Radial Menu by using the below code. You can also set the images for ea
                 <li data-ej-imageurl="http://js.syncfusion.com/demos/web/content/images/RadialMenu/undo.png" data-ej-text="Undo" data-ej-enabled="false"></li>
             </ul>
       {{/ej-radialmenu}}
+      
+      {% endraw %}
     </div> 
 
 

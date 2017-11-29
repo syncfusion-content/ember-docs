@@ -27,8 +27,10 @@ Create a div element that acts as a container for Tile control. Initialize ejTil
 
 
 {% highlight html %}
-
+        {% raw %}
         {{ej-tile id="tile7" e-imageUrl="http://js.syncfusion.com/demos/web/content/images/tile/windows/map.png"  e-tileSize="medium" e-text="Maps" }} 
+        
+        {% endraw %}
 
 {% endhighlight %}
 
@@ -61,6 +63,7 @@ Refer to the following code example.
     
      <div class="cols-sample-area">
             <div class="e-container-tile">
+            {% raw %}
                 <div id="scrollTarget" style="height: 100%">
                     <div class="e-tile-group">
                         <div class="e-tile-column">
@@ -84,6 +87,7 @@ Refer to the following code example.
                </div>
             </div>
         </div>
+            {% endraw %}
     </div>
     </div>
 

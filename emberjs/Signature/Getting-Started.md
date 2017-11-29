@@ -25,7 +25,9 @@ Create an HTML file and add the following template in the HTML file.
 
             <div class="control">
                     <h3>Sign here</h3>
+                {% raw %}
                   {{ej-signature id="signature" e-height=model.height }}
+                 {% endraw %}
             </div>
 
 {% endhighlight %}
@@ -60,7 +62,9 @@ Add the following HTML to render signature with customized width and height.
 
       <div class="control">
                     <h3>Sign here</h3>
+                {% raw %}
                   {{ej-signature id="signature" e-height=model.height e-width=model.width e-isResponsive=true e-strokeWidth=model.strokeWidth}}
+                  {% endraw %}
         </div>
 
 {% endhighlight %}
