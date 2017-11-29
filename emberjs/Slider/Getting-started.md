@@ -1,4 +1,4 @@
-﻿---
+---
 title: Getting Started for Slider
 description: How to create a Slider
 platform: EmberJS
