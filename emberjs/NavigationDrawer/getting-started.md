@@ -34,7 +34,7 @@ The following steps guide you in adding a **Navigation Drawer** control for a we
 
     </div>
 
-{% end highlight %}
+{% endhighlight %}
 
 Add the following code in  corresponding "hbs" file to Create the target element.
 
@@ -113,7 +113,7 @@ Add the following code in the **script** tag.
             
         </div>
 
-{% end highlight %}
+{% endhighlight %}
 
 
 You can display the drawer either by clicking on the target icon or by swiping from left on the page. Refer to the following screenshot.
