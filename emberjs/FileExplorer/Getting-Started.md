@@ -24,7 +24,7 @@ Before we start with the FileExplorer, please refer [this page](https://help.syn
 {% endraw %}
 {% endhighlight %}
 
-* Use the below code in `default.js` in routes folder to bind the model to the FileExplorer .
+* Use the below code in `default.js` in routes folder to bind the model to the FileExplorer.
 
 {% highlight html %}
 {% raw %}
