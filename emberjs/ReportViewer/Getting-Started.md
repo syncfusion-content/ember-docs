@@ -1,5 +1,5 @@
 ---
-title: Getting started with ReportViewer component in Ember JS	
+title: Getting Started for Ember JS ReportViewer 	
 description:  ReportViewer
 platform: emberjs
 control: ReportViewer
