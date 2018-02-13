@@ -44,7 +44,7 @@ N> Pager settings can be customized by using the [`e-pageSettings-pageSize`](htt
 
 ## Enable Filtering
 
-[`Filtering`] can be enabled by setting the `e-allowFiltering` to `true`. By default, the filter bar row is displayed to perform filtering, you can change the filter type by using the [`e-filterSetting-filterType`](https://help.syncfusion.com/api/js/ejgrid#members:filtersettings) property.
+[`Filtering`] can be enabled by setting the `e-allowFiltering` to `true`. By default, the filter bar row is displayed to perform filtering, you can change the filter type by using the [`e-filterSettings-filterType`](https://help.syncfusion.com/api/js/ejgrid#members:filtersettings) property.
 
 {% highlight html %}
 
