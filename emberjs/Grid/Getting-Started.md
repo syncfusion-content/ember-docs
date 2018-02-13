@@ -7,6 +7,8 @@ documentation: ug
 ---
 # Getting started
 
+Before we start with the Grid, please refer [Getting Started with Syncfusion EmberJS application](https://help.syncfusion.com/emberjs/overview/) for general information regarding integrating Syncfusion widget’s.
+
 ##Preparing HTML document
 
 The grid control has the following list of external JavaScript dependencies.
