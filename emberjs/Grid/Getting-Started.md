@@ -38,7 +38,7 @@ Before we start with the Grid, please refer [Getting Started with Syncfusion Emb
 N> Pager settings can be customized by using the [`e-pageSettings-pageSize`](https://help.syncfusion.com/api/js/ejgrid#members:pagesettings-pagesize) property. When it is not given the default values for `pageSize` and `pageCount` are 12 and 8 respectively.
 
 
-![](Getting-started_images/Getting-started_img3.png)
+![](Getting-Started_images/Getting-started_img3.png)
 {:.image }
 
 
