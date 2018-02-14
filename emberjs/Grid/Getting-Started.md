@@ -19,7 +19,7 @@ Before we start with the Grid, please refer [Getting Started with Syncfusion Emb
 
 {% endhighlight %}
 
-{% highlight html %}
+{% highlight js %}
 
 	import Ember from 'ember';
 
@@ -52,7 +52,7 @@ N> Pager settings can be customized by using the [`e-pageSettings-pageSize`](htt
 
 {% endhighlight %}
 
-{% highlight html %}
+{% highlight js %}
 
 	import Ember from 'ember';
 
@@ -81,7 +81,7 @@ N> Pager settings can be customized by using the [`e-pageSettings-pageSize`](htt
 
 {% endhighlight %}
 
-{% highlight html %}
+{% highlight js %}
 
 	import Ember from 'ember';
 
@@ -108,7 +108,7 @@ Refer to the following code example for initial grouping.
 
 {% endhighlight %}
 
-{% highlight html %}
+{% highlight js %}
 
 	import Ember from 'ember';
 
@@ -137,7 +137,7 @@ Refer to the following code example for initial grouping.
 
 {% endhighlight %}
 
-{% highlight html %}
+{% highlight js %}
 
 	import Ember from 'ember';
 
