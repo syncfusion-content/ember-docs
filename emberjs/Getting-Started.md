@@ -29,10 +29,13 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
 
 * Add syncfusion-ember in `package.json` to add the Syncfusion Ember add-on into your application `ember-app`.
 
+* Add [syncfusion-javascript](https://www.npmjs.com/package/syncfusion-javascript) package for source files (`scripts` and `css`).
+
 {% highlight js %}
     "devDependencies": {
         ...
-	    "syncfusion-ember":"*" //To install the latest version
+        "syncfusion-ember":"*"; //To install the latest version
+        "syncfusion-javascript": "*"; // To install source files
     }
 {% endhighlight %}
 
@@ -50,7 +53,7 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
 
 * Open the command prompt in the root folder and run the command `npm install` to download the dependent files in node-modules.
 
-* Copy the files `ej.web.all.min` and `jsrender.min` into the `vendor` folder. Import the same into the application using below code in `ember-cli-build.js`.
+* Copy the files `ej.web.all.min` and `jsrender.min` from `web/scripts` folder which is in JavaScript build samples location `(Click Explore Demos button from the Javascript Dashboard)` or copy `ej.web.all.min` from `node_modules/syncfusion-javascript/Scripts/ej/web` and download `jsrender.min` file from [CDN](https://cdn.syncfusion.com/js/assets/external/jsrender.min.js) into the `vendor` folder. Import the same into the application using below code in `ember-cli-build.js`.
 
 {% highlight js %}
     module.exports = function(defaults) {
@@ -63,18 +66,21 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
     };
 {% endhighlight %}
 
-* Create the folder `scripts` and `content` in public folder and copy JavaScript and CSS files from `/scripts` and `/themes` folder which is in JavaScript samples location `(Click explore button from the Javascript Dashboard)` into created folders. And include the necessary file references in Index page which is in `app` folder of the Ember application.
+* Create the folder `scripts` and `content` in public folder and copy JavaScript and CSS files from `web/scripts` and `web/themes` folder which is in JavaScript build samples location `(Click Explore Demos button from the Javascript Dashboard)` or copy the `themes` files from `node_modules/syncfusion-javascript/Content/ej/web` into created folders.
+
+* And include the necessary file references in Index page which is in `app` folder of the Ember application.
 
 {% highlight html %}
     <head>
-        <link rel="stylesheet" href="{{rootURL}}content/ejthemes/default-theme/ej.web.all.min.css">
+        <link rel="stylesheet" href="{% raw %}{{rootURL}}{% endraw %
+        content/ejthemes/default-theme/ej.web.all.min.css">
     </head>
     <body>
-        <script src="{{rootURL}}scripts/scripts/jsondata.min.js" type="text/javascript"></script>
+        <script src="{% raw %}{{rootURL}}{% endraw %}scripts/scripts/jsondata.min.js" type="text/javascript"></script>
     </body>
 {% endhighlight %}
 
-## Create Grid sample in the Ember CLI application.
+## Create Grid sample in the Ember CLI application
 
 * Open the command prompt in the folder `ember-app`.
 
@@ -110,7 +116,20 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
     });
 {% endhighlight %}
 
-## Build or Run the Ember CLI application.
+* Use the below code in `.eslintrc` file to ignore the ESLint error `ej is undefined` which is used in samples.
+
+{% highlight js %}
+    ...
+    rules: {
+        ...
+    },
+    globals: {
+	    ej: false
+    }
+    ...
+{% endhighlight %}
+
+## Build or Run the Ember CLI application
 
 * To Build the Ember CLI application using the command `ember build` which builds the application and creates the `dist` folder. Now you can host the `dist` folder in IIS.
 
