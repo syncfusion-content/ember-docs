@@ -72,7 +72,7 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
 
 {% highlight html %}
     <head>
-        <link rel="stylesheet" href="{% raw %}{{rootURL}}{% endraw %
+        <link rel="stylesheet" href="{% raw %}{{rootURL}}{% endraw %}
         content/ejthemes/default-theme/ej.web.all.min.css">
     </head>
     <body>
@@ -116,7 +116,7 @@ Please follow the below steps to use Syncfusion Ember add-on in your Ember CLI a
     });
 {% endhighlight %}
 
-* Use the below code in `.eslintrc` file to ignore the ESLint error `ej is undefined` which is used in samples.
+* Use the below code in `.eslintrc` file to ignore the ESLint errors while using `ej` in samples as like `ej.TextAlign.Right`.
 
 {% highlight js %}
     ...
