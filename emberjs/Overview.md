@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Syncfusion Ember 
-description: Overview to Syncfusion Ember
+description: Overview of Syncfusion Essential Ember widgets based on HTML5 and jQuery
 platform: emberjs
 control: Introduction
 documentation: ug
@@ -20,9 +20,9 @@ Syncfusion provides Ember support for most of the important Syncfusion JavaScrip
 
 ## Additional help resources
 
-* The [Knowledge Base](http://www.syncfusion.com/kb/ember) section contains responses to some of the most common questions that other customers have asked us in the past so this would be a good place to search for topics that are not covered in the user guide.
+* The [Knowledge Base](https://www.syncfusion.com/kb) section contains responses to some of the most common questions that other customers have asked us in the past so this would be a good place to search for topics that are not covered in the user guide.
 
-* Similar to the [Knowledge Base](http://www.syncfusion.com/kb/ember), the [forum](https://www.syncfusion.com/forums/ember) section also contains responses to questions that other customers have asked us in the past.
+* Similar to the [Knowledge Base](https://www.syncfusion.com/kb), the [forum](https://www.syncfusion.com/forums/ember) section also contains responses to questions that other customers have asked us in the past.
 
 ## Create a support incident
 
