@@ -27,4 +27,3 @@ The Autocomplete control for EmberJS is a input textbox control that provides a 
 
 * Keyboard Interaction: Supports using the keyboard to focus on the control, navigate through the suggestion results, and select a value.
 
-
