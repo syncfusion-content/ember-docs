@@ -28,4 +28,4 @@ Syncfusion provides Ember support for most of the important Syncfusion JavaScrip
 
 ## Create a support incident
 
-If you are still not able to find the information that you are looking for in the self-help resources mentioned above then please [contact us](https://support.syncfusion.com/support/tickets) by creating a support ticket.
+If you are still not able to find the information that you are looking for in the self-help resources mentioned above then please [contact us](https://www.syncfusion.com/) by creating a support ticket.
