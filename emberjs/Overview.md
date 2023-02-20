@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Welcome to Syncfusion Ember 
-description: Overview of Syncfusion Essential Ember widgets based on HTML5 and jQuery
+title: Welcome to Syncfusion Ember controls
+description: Overview of the Syncfusion Essential Ember JavaScript widgets based on HTML5 and jQuery in active development.
 platform: emberjs
 control: Introduction
 documentation: ug
 ---
 # Welcome to Syncfusion Essential JS for Ember
+
+> Syncfusion jQuery based widgets are no longer in active development. Switch to our pure JavaScript based next generation Essential JS 2 library.
 
 Syncfusion provides Ember support for most of the important Syncfusion JavaScript controls. Syncfusion provides this support as an addon, so you can seamlessly use this addon with your Ember CLI application to create the rich web application.
 
@@ -26,4 +28,4 @@ Syncfusion provides Ember support for most of the important Syncfusion JavaScrip
 
 ## Create a support incident
 
-If you are still not able to find the information that you are looking for in the self-help resources mentioned above then please [contact us](https://www.syncfusion.com/support/) by creating a support ticket.
+If you are still not able to find the information that you are looking for in the self-help resources mentioned above then please [contact us](https://support.syncfusion.com/support/tickets/) by creating a support ticket.
