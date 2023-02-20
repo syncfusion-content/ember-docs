@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Welcome to Syncfusion Ember 
-description: Overview of Syncfusion Essential Ember widgets based on HTML5 and jQuery
+title: Welcome to Syncfusion Ember controls
+description: Overview of the Syncfusion Essential Ember JavaScript widgets based on HTML5 and jQuery in active development.
 platform: emberjs
 control: Introduction
 documentation: ug
@@ -28,4 +28,4 @@ Syncfusion provides Ember support for most of the important Syncfusion JavaScrip
 
 ## Create a support incident
 
-If you are still not able to find the information that you are looking for in the self-help resources mentioned above then please [contact us](https://www.syncfusion.com/support/) by creating a support ticket.
+If you are still not able to find the information that you are looking for in the self-help resources mentioned above then please [contact us](https://support.syncfusion.com/support/) by creating a support ticket.
