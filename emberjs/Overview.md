@@ -22,10 +22,10 @@ Syncfusion provides Ember support for most of the important Syncfusion JavaScrip
 
 ## Additional help resources
 
-* The [Knowledge Base](https://www.syncfusion.com/kb) section contains responses to some of the most common questions that other customers have asked us in the past so this would be a good place to search for topics that are not covered in the user guide.
+* The [Knowledge Base](https://support.syncfusion.com/kb) section contains responses to some of the most common questions that other customers have asked us in the past so this would be a good place to search for topics that are not covered in the user guide.
 
-* Similar to the [Knowledge Base](https://www.syncfusion.com/kb), the [forum](https://www.syncfusion.com/forums/ember) section also contains responses to questions that other customers have asked us in the past.
+* Similar to the [Knowledge Base](https://support.syncfusion.com/kb), the [forum](https://www.syncfusion.com/forums/emberjs) section also contains responses to questions that other customers have asked us in the past.
 
 ## Create a support incident
 
-If you are still not able to find the information that you are looking for in the self-help resources mentioned above then please [contact us](https://www.syncfusion.com/) by creating a support ticket.
+If you are still not able to find the information that you are looking for in the self-help resources mentioned above then please [contact us](https://www.syncfusion.com) by creating a support ticket.
