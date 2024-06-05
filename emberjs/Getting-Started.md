@@ -13,7 +13,7 @@ documentation: ug
 
 To work with Ember, you need to install the followings on your machine.
 
-* Node JS [5.x.x+ version](https://nodejs.org/en/).
+* Node.js [5.x.x+ version](https://nodejs.org/en/).
 
 * NPM [3.x.x+ version](https://blog.npmjs.org/post/85484771375/how-to-install-npm)
 
